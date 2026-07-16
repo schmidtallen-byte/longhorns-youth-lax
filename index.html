@@ -19,10 +19,27 @@
       <a href="index.html" class="active">Home</a>
       <a href="girls.html">Girls Program</a>
       <a href="boys.html">Boys Program</a>
-      <a href="#">Registration</a>
-      <a href="#">Coaching Staff</a>
-      <a href="index.html#contact">Contacts</a>
-      <a href="#">FAQ</a>
+      <a href="registration.html">Registration</a>
+      <div class="dropdown">
+        <button>About ▾</button>
+        <div class="dropdown-menu">
+          <a href="about.html#board">Board</a>
+          <a href="about.html#staff">Staff</a>
+          <a href="about.html#boys-coaches">Boys Coaches</a>
+          <a href="about.html#girls-coaches">Girls Coaches</a>
+          <a href="contact.html">Get in Touch</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button>Resources ▾</button>
+        <div class="dropdown-menu">
+          <a href="resources.html#handbook">Parent Handbook</a>
+          <a href="resources.html#faq">FAQ</a>
+          <a href="resources.html#fields">Fields / Facilities</a>
+          <a href="resources.html#wallball">Weekly Wall Ball Challenge</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
     </div>
   </nav>
 </header>
@@ -116,12 +133,12 @@
       <div class="strip-card">
         <h3>Coaching Staff</h3>
         <p>Meet the boys' and girls' coaching staff and find out how to get involved.</p>
-        <a href="#" class="link-red">MEET THE STAFF →</a>
+        <a href="about.html#staff" class="link-red">MEET THE STAFF →</a>
       </div>
       <div class="strip-card">
         <h3>FAQ</h3>
         <p>Answers for boys' and girls' families — registration, gear, seasons, and more.</p>
-        <a href="#" class="link-red">VIEW FAQ →</a>
+        <a href="resources.html#faq" class="link-red">VIEW FAQ →</a>
       </div>
     </div>
   </div>
@@ -143,16 +160,18 @@
             <input id="email" name="email" type="email" placeholder="you@email.com" required>
           </div>
         </div>
-        <div class="form-row full">
+        <div class="form-row">
           <div>
-            <label for="topic">This is regarding</label>
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" type="tel" placeholder="(404) 555-0123">
+          </div>
+          <div>
+            <label for="topic">Program of Interest</label>
             <select id="topic" name="topic">
-              <option>General Question</option>
-              <option>Boys Program</option>
-              <option>Girls Program</option>
-              <option>Registration</option>
-              <option>Board / Volunteering</option>
-              <option>Sponsorship</option>
+              <option>Boys</option>
+              <option>Girls</option>
+              <option>Both</option>
+              <option>General Inquiry</option>
             </select>
           </div>
         </div>
@@ -173,6 +192,7 @@
   <div class="wrap">
     <div class="fh">LONGHORNS YOUTH LACROSSE</div>
     <p>Suwanee, GA &nbsp;·&nbsp; <a href="#">Facebook</a> &nbsp;·&nbsp; <a href="#">Instagram</a> &nbsp;·&nbsp; <a href="#">Team Store</a></p>
+    <p class="contact-line">longhornyouthlax@gmail.com</p>
     <p style="margin-top:10px;">© 2026 Longhorn Youth Lacrosse Association</p>
   </div>
 </footer>

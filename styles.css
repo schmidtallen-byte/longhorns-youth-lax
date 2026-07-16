@@ -151,7 +151,58 @@ footer .fh{color:var(--white);font-family:'Anton',sans-serif;letter-spacing:1px;
 footer a{color:#a8a8a8;}
 footer a:hover{color:var(--red);}
 
+/* BOARD / STAFF / COACHES (About page) */
+.board-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:980px;margin:0 auto;}
+.board-card{background:var(--white);padding:22px;text-align:center;border-top:3px solid var(--red);}
+.board-card .role{font-family:'Anton',sans-serif;font-size:14px;letter-spacing:0.5px;margin-bottom:6px;}
+.board-card .name{font-size:15px;color:var(--gray);}
+.staff-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:820px;margin:0 auto;}
+.staff-card{background:var(--white);padding:22px 26px;border-left:4px solid var(--gray);}
+.staff-card .role{font-family:'Anton',sans-serif;font-size:13px;letter-spacing:0.5px;color:var(--red);margin-bottom:4px;}
+.staff-card .name{font-size:17px;font-weight:600;}
+.coach-placeholder{max-width:820px;margin:24px auto 0;background:var(--blush);padding:20px 26px;text-align:center;color:#7a3540;font-size:15px;}
+.about-subhead{max-width:820px;margin:56px auto 24px;text-align:center;}
+.about-subhead h3{font-size:22px;}
+
+/* RESOURCES / FAQ */
+.resource-block{max-width:820px;margin:0 auto 34px;background:var(--white);padding:30px 34px;border-left:5px solid var(--red);}
+.resource-block h3{font-size:22px;margin-bottom:10px;}
+.resource-block p{font-size:16px;color:#333;}
+.faq-group{max-width:820px;margin:0 auto 40px;}
+.faq-group h3{font-family:'Anton',sans-serif;color:var(--red);font-size:18px;letter-spacing:0.5px;margin-bottom:16px;}
+.faq-item{background:var(--white);padding:18px 24px;margin-bottom:10px;}
+.faq-item .q{font-weight:700;font-size:16px;margin-bottom:6px;}
+.faq-item .a{font-size:15px;color:#333;}
+
+/* REGISTRATION */
+.reg-list{max-width:820px;margin:0 auto;}
+.reg-row{display:flex;justify-content:space-between;align-items:center;gap:16px;background:var(--white);padding:20px 26px;margin-bottom:12px;border-left:4px solid var(--red);flex-wrap:wrap;}
+.reg-row .prog-name{font-weight:700;font-size:16px;}
+.reg-row .prog-sub{font-size:14px;color:var(--gray);}
+.reg-row .status{font-family:'Anton',sans-serif;font-size:12px;letter-spacing:0.5px;padding:8px 14px;background:var(--gray-light);color:var(--gray);white-space:nowrap;}
+.reg-row .status.soon{background:var(--blush);color:var(--red-dark);}
+.reg-note{max-width:820px;margin:34px auto 0;font-size:14px;color:var(--gray);}
+.reg-note li{margin-bottom:6px;margin-left:18px;}
+
+footer .contact-line{margin-top:6px;}
+
+/* BOYS PROGRAM DETAIL SECTIONS */
+.notice-box{max-width:820px;margin:20px auto 0;background:var(--blush);border-left:4px solid var(--red);padding:18px 24px;font-size:15px;color:#7a3540;}
+.notice-box b{color:var(--red-dark);}
+.sub-section{max-width:820px;margin:0 auto 40px;background:var(--white);padding:34px 38px;border-left:5px solid var(--gray);}
+.sub-section h3{font-size:24px;margin-bottom:4px;}
+.sub-section .kicker-sm{font-family:'Anton',sans-serif;font-size:12px;letter-spacing:1px;color:var(--red);margin-bottom:10px;display:block;}
+.sub-section p{font-size:16px;color:#333;margin-bottom:14px;}
+.bullet-list{margin:0 0 16px 20px;}
+.bullet-list li{font-size:15px;color:#333;margin-bottom:6px;}
+.tourney-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px;}
+.tourney-table td{padding:10px 12px;border-bottom:1px solid #e5e2db;}
+.tourney-table td:first-child{color:var(--gray);width:45%;}
+.tourney-table td:last-child{font-weight:600;}
+.reg-detail{background:var(--gray-light);padding:18px 22px;margin:16px 0;font-size:15px;}
+.reg-detail li{margin-left:18px;margin-bottom:6px;}
+
 @media (max-width:960px){
   .navlinks{display:none;}
-  .season-grid,.prog-grid,.strip-grid,.form-row,.ms-grid{grid-template-columns:1fr;}
+  .season-grid,.prog-grid,.strip-grid,.form-row,.ms-grid,.board-grid,.staff-grid{grid-template-columns:1fr;}
 }
