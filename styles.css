@@ -1,12 +1,12 @@
 :root{
-  --red:#9C434A;
-  --red-dark:#7A2F36;
-  --red-light:#B5555C;
-  --black:#1A1414;
-  --gray:#6b6560;
-  --gray-light:#E3E0DC;
-  --cream:#F5F4F2;
-  --blush:#F3E4E6;
+  --red:#A6183C;
+  --red-dark:#6E0F28;
+  --red-light:#C33A5C;
+  --black:#111111;
+  --gray:#55575B;
+  --gray-light:#E6E6E6;
+  --cream:#F7F7F7;
+  --blush:#F3E1E5;
   --white:#FFFFFF;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
