@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Longhorns Youth Lacrosse — Suwanee, GA</title>
+<title>Longhorns Youth Lacrosse | LYLA</title>
+<meta name="description" content="Youth lacrosse in Forsyth County, GA — boys and girls programs for Kindergarten through 8th grade.">
+<meta property="og:title" content="Longhorns Youth Lacrosse | LYLA">
+<meta property="og:description" content="Youth lacrosse in Forsyth County, GA — boys and girls programs for Kindergarten through 8th grade.">
+<meta property="og:image" content="https://longhornyouthlax.com/og-image.png">
+<meta property="og:url" content="https://longhornyouthlax.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Longhorns Youth Lacrosse | LYLA">
+<meta name="twitter:description" content="Youth lacrosse in Forsyth County, GA — boys and girls programs for Kindergarten through 8th grade.">
+<meta name="twitter:image" content="https://longhornyouthlax.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
@@ -15,6 +25,7 @@
     <a class="brand" href="index.html">
       <img src="lyla-logo.png" alt="Longhorns Youth Lacrosse">
     </a>
+    <button class="burger" aria-label="Menu">☰</button>
     <div class="navlinks">
       <a href="index.html" class="active">Home</a>
       <a href="girls.html">Girls Program</a>
@@ -39,6 +50,7 @@
           <a href="resources.html#wallball">Weekly Wall Ball Challenge</a>
         </div>
       </div>
+      <a href="support.html">Support</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
@@ -127,6 +139,17 @@
   </div>
 </section>
 
+<section class="emailbar">
+  <div class="wrap">
+    <h2>Stay in the Loop</h2>
+    <p>Join our email list for program news, events, and upcoming registration announcements.</p>
+    <form class="emailbar-row" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</section>
+
 <section class="strip">
   <div class="wrap">
     <div class="strip-grid">
@@ -197,5 +220,6 @@
   </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
