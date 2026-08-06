@@ -41,7 +41,7 @@ nav.wrap{display:flex;align-items:center;justify-content:space-between;height:78
 .burger{display:none;background:none;border:none;color:var(--black);font-size:28px;cursor:pointer;padding:8px;line-height:1;}
 
 /* HERO (homepage) */
-.hero{background:var(--black);color:var(--white);position:relative;overflow:hidden;padding:80px 0 60px;text-align:center;}
+.hero{background:var(--black);color:var(--white);position:relative;overflow:hidden;padding:56px 0 44px;text-align:center;}
 .hero .eyebrow{color:var(--gray);font-family:'Oswald',sans-serif;letter-spacing:3px;font-size:15px;margin-bottom:18px;}
 .hero h1{font-size:clamp(42px,7vw,80px);line-height:0.95;color:var(--red);
   -webkit-text-stroke:1px rgba(255,255,255,0.15);}
